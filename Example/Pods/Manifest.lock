@@ -1,0 +1,16 @@
+PODS:
+  - GoogleSignIn (0.1.0)
+
+DEPENDENCIES:
+  - GoogleSignIn (from `..`)
+
+EXTERNAL SOURCES:
+  GoogleSignIn:
+    :path: ".."
+
+SPEC CHECKSUMS:
+  GoogleSignIn: 4e455c28182fb8759f3683b1429faddf9cb82272
+
+PODFILE CHECKSUM: aaf9e1da6d8681ee06a5d99dc2d0bec86adcdb8e
+
+COCOAPODS: 1.5.3
