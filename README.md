@@ -8,7 +8,7 @@ This is in the form of a Cocoapod. See "Podspec Note" below for rationale. See t
 
 In your Podfile, at the very top of the file, put:
 
-```source 'https://github.com/crspybits/Specs.git```
+```source 'https://github.com/crspybits/Specs.git'```
 
 # Rationale
 
