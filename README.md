@@ -6,6 +6,9 @@ This is a dynamic version of the iOS [GoogleSignIn](https://developers.google.co
 
 This is in the form of a Cocoapod. See "Podspec Note" below for rationale. See the .podspec file for the current version.
 
+In your Podfile, at the very top of the file, put:
+```source 'https://github.com/crspybits/Specs.git```
+
 # Rationale
 
 Since [SyncServer](https://github.com/crspybits/SyncServer-iOSClient) is a framework, I wanted a means to provide Google Sign In for iOS clients so that they didn't have to explicitly import GoogleSignIn. That is, I wanted to do this just like the way I'm doing this with Facebook and Dropbox: Just select the subspec in your Cocoapods Podfile and you are off to the races. However, Google Sign In doesn't make this easy-- at this time (early June 2018), Google provides static libraries. Well, you say, Cocoapods can now support [static vendored_libraries](https://guides.cocoapods.org/syntax/podspec.html#static_framework). Yea! Hmmm. I tried doing this. I get a gnarly error: "unsealed contents present in the bundle root" from Xcode. I wasn't able to make progress with that issue.
