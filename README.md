@@ -7,6 +7,7 @@ This is a dynamic version of the iOS [GoogleSignIn](https://developers.google.co
 This is in the form of a Cocoapod. See "Podspec Note" below for rationale. See the .podspec file for the current version.
 
 In your Podfile, at the very top of the file, put:
+
 ```source 'https://github.com/crspybits/Specs.git```
 
 # Rationale
