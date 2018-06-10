@@ -8,17 +8,19 @@ This is in the form of a Cocoapod. See "Podspec Note" below for rationale. See t
 
 # Rationale
 
-Since SyncServer is a framework, I wanted a means to provide Google Sign In for iOS clients to that they didn't have to explicitly import GoogleSignIn. That is, just like the way I'm doing this with Facebook and Dropbox. Just select the subspec in your Cocoapods Podfile and you are off to the races. However, Google Sign In doesn't make this easy-- at this time (early June 2018), Google provides static libraries. Well, you say, Cocoapods can now support [static vendored_libraries](https://guides.cocoapods.org/syntax/podspec.html#static_framework). Yea! Hmmm. I tried doing this. I get a gnarly error from: "unsealed contents present in the bundle root" from Xcode. I wasn't able to make progress with that issue.
+Since [SyncServer](https://github.com/crspybits/SyncServer-iOSClient) is a framework, I wanted a means to provide Google Sign In for iOS clients so that they didn't have to explicitly import GoogleSignIn. That is, I wanted to do this just like the way I'm doing this with Facebook and Dropbox: Just select the subspec in your Cocoapods Podfile and you are off to the races. However, Google Sign In doesn't make this easy-- at this time (early June 2018), Google provides static libraries. Well, you say, Cocoapods can now support [static vendored_libraries](https://guides.cocoapods.org/syntax/podspec.html#static_framework). Yea! Hmmm. I tried doing this. I get a gnarly error: "unsealed contents present in the bundle root" from Xcode. I wasn't able to make progress with that issue.
 
 Instead, I took the route of converting the Google Sign In framework to a dynamic framework using [these instructions](https://pewpewthespells.com/blog/convert_static_to_dynamic.html)
 
 This repo is the result of that process.
 
-# Build process
+# Build process: Build from `GoogleSignIn.xcodeproj`
+
+// GoogleSignIn.xcodeproj is not part of the Cocoapod, but rather enables you to build the dynamic GoogleSignIn.framework
 
 // See https://stackoverflow.com/questions/5010062/xcodebuild-simulator-or-device and https://stackoverflow.com/questions/29634466/how-to-export-fat-cocoa-touch-framework-for-simulator-and-device
 
-// For some reason, this is not generating a binary file output. I'm having to dig into the DerivedData output of Xcode to actually get the simulator-built framework.
+// For some reason, the following does not generating a binary file output to run with the simulator. I'm having to dig into the DerivedData output of Xcode after building for an example simulator device to actually get the simulator-built framework.
 
 xcodebuild -target GoogleSignIn -configuration Debug -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO BUILD_DIR="build" BUILD_ROOT="build" clean build
 
@@ -26,7 +28,7 @@ xcodebuild -target GoogleSignIn -configuration Debug -sdk iphonesimulator ONLY_A
 
 xcodebuild -target GoogleSignIn -configuration Debug -sdk iphoneos ONLY_ACTIVE_ARCH=NO BUILD_DIR="build" BUILD_ROOT="build" clean build
 
-// Copy the framework structure (from iphoneos build) to the universal folder-- the lipo step only builds the executable, not the framework structure
+// Copy the framework structure (from iphoneos build) to the universal folder-- the lipo step only builds the executable, not the framework structure. Note that `trash` is just a command to move to the directory to the Trash folder.
 
 trash Framework/GoogleSignIn.framework
 
