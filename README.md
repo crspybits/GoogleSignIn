@@ -29,6 +29,7 @@ This repo is the result of that process.
 xcodebuild -target GoogleSignIn -configuration Debug -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO BUILD_DIR="build" BUILD_ROOT="build" clean build
 
 // Builds arm64 and armv7
+// I had to add -fembed-bitcode to OTHER_CFLAGS in the project build settings because I got "ld: bitcode bundle could not be generated" when I tried to build SharedImages.
 
 xcodebuild -target GoogleSignIn -configuration Debug -sdk iphoneos ONLY_ACTIVE_ARCH=NO BUILD_DIR="build" BUILD_ROOT="build" clean build
 
