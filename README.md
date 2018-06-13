@@ -26,22 +26,23 @@ This repo is the result of that process.
 
 // For some reason, the following does not generating a binary file output to run with the simulator. I'm having to dig into the DerivedData output of Xcode after building for an example simulator device to actually get the simulator-built framework.
 
-xcodebuild -target GoogleSignIn -configuration Debug -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO BUILD_DIR="build" BUILD_ROOT="build" clean build
+xcodebuild -target GoogleSignIn -configuration Release -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO BUILD_DIR="build" BUILD_ROOT="build" clean build
 
 // Builds arm64 and armv7
-// I had to add -fembed-bitcode to OTHER_CFLAGS in the project build settings because I got "ld: bitcode bundle could not be generated" when I tried to build SharedImages.
+// I had to add -fembed-bitcode to OTHER_CFLAGS in the project build settings because I got "ld: bitcode bundle could not be generated" when I tried to build SharedImages. I also added this to the linker flags.
+// And I'm now making release builds because that seems to be the way to generate bitcode. See https://stackoverflow.com/questions/31233395/ios-library-to-bitcode
 
-xcodebuild -target GoogleSignIn -configuration Debug -sdk iphoneos ONLY_ACTIVE_ARCH=NO BUILD_DIR="build" BUILD_ROOT="build" clean build
+xcodebuild -target GoogleSignIn -configuration Release -sdk iphoneos ONLY_ACTIVE_ARCH=NO BUILD_DIR="build" BUILD_ROOT="build" clean build
 
 // Copy the framework structure (from iphoneos build) to the universal folder-- the lipo step only builds the executable, not the framework structure. Note that `trash` is just a command to move to the directory to the Trash folder.
 
 trash Framework/GoogleSignIn.framework
 
-cp -R "build/Debug-iphoneos/GoogleSignIn.framework" "Framework/GoogleSignIn.framework"
+cp -R "build/Release-iphoneos/GoogleSignIn.framework" "Framework/GoogleSignIn.framework"
 
 // Note we're replacing the non-fat binary in the step above with the fat binary.
 
-lipo -create -output "Framework/GoogleSignIn.framework/GoogleSignIn" "build/Debug-iphonesimulator/GoogleSignIn.framework/GoogleSignIn" "build/Debug-iphoneos/GoogleSignIn.framework/GoogleSignIn"
+lipo -create -output "Framework/GoogleSignIn.framework/GoogleSignIn" "build/Release-iphonesimulator/GoogleSignIn.framework/GoogleSignIn" "build/Release-iphoneos/GoogleSignIn.framework/GoogleSignIn"
 
 // Note that the name of the resulting framework must be `GoogleSignIn`-- i.e., it must match the name of the .bundle file-- or the graphics and text will not load into the Google Sign In button.
 

@@ -4,7 +4,7 @@
   'roots': [
     {
       'type': 'directory',
-      'name': "/Users/chris/Desktop/Apps/repos/GoogleSignIn/build/Debug-iphoneos/GoogleSignIn.framework/Headers",
+      'name': "/Users/chris/Desktop/Apps/repos/GoogleSignIn/build/Release-iphoneos/GoogleSignIn.framework/Headers",
       'contents': [
         {
           'type': 'file',
@@ -34,7 +34,7 @@
         {
           'type': 'file',
           'name': "GoogleSignIn-Swift.h",
-          'external-contents': "/Users/chris/Desktop/Apps/repos/GoogleSignIn/build/Debug-iphoneos/GoogleSignIn.framework/Headers/GoogleSignIn-Swift.h"
+          'external-contents': "/Users/chris/Desktop/Apps/repos/GoogleSignIn/build/Release-iphoneos/GoogleSignIn.framework/Headers/GoogleSignIn-Swift.h"
         },
         {
           'type': 'file',
@@ -50,12 +50,12 @@
     },
     {
       'type': 'directory',
-      'name': "/Users/chris/Desktop/Apps/repos/GoogleSignIn/build/Debug-iphoneos/GoogleSignIn.framework/Modules",
+      'name': "/Users/chris/Desktop/Apps/repos/GoogleSignIn/build/Release-iphoneos/GoogleSignIn.framework/Modules",
       'contents': [
         {
           'type': 'file',
           'name': "module.modulemap",
-          'external-contents': "/Users/chris/Desktop/Apps/repos/GoogleSignIn/build/GoogleSignIn.build/Debug-iphoneos/GoogleSignIn.build/module.modulemap"
+          'external-contents': "/Users/chris/Desktop/Apps/repos/GoogleSignIn/build/GoogleSignIn.build/Release-iphoneos/GoogleSignIn.build/module.modulemap"
         }
       ]
     }
