@@ -18,7 +18,7 @@
 			<key>License</key>
 			<string>Copyright</string>
 			<key>Title</key>
-			<string>GoogleSignIn</string>
+			<string>SMGoogleSignIn</string>
 			<key>Type</key>
 			<string>PSGroupSpecifier</string>
 		</dict>

@@ -1,16 +1,16 @@
 PODS:
-  - GoogleSignIn (0.1.0)
+  - SMGoogleSignIn (1.0.0)
 
 DEPENDENCIES:
-  - GoogleSignIn (from `..`)
+  - SMGoogleSignIn (from `..`)
 
 EXTERNAL SOURCES:
-  GoogleSignIn:
+  SMGoogleSignIn:
     :path: ".."
 
 SPEC CHECKSUMS:
-  GoogleSignIn: 4e455c28182fb8759f3683b1429faddf9cb82272
+  SMGoogleSignIn: b84190c3837cd808193af191a745910903a83e2e
 
-PODFILE CHECKSUM: aaf9e1da6d8681ee06a5d99dc2d0bec86adcdb8e
+PODFILE CHECKSUM: bfbcbad8f54f37a529e5a8983569413f0d1bbca6
 
 COCOAPODS: 1.5.3

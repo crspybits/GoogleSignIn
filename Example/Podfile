@@ -4,5 +4,5 @@ source 'https://github.com/crspybits/Specs.git'
 use_frameworks!
 
 target 'Example' do
-	pod 'GoogleSignIn', :path => '..'
+	pod 'SMGoogleSignIn', :path => '..'
 end
