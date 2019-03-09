@@ -1,5 +1,8 @@
 GoogleSignIn
 
+Version 1.0.0 (3/9/19)
+	* Changing name of pod to SMGoogleSignIn (from GoogleSignIn) to try the native (Google's) pod again to see it's still static.
+
 Version 0.1.2 (6/12/18)
 	* Still trying to get bitcode into slices properly.
 
