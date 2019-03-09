@@ -7,15 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		83288C592234740900C6DF73 /* GIDGoogleUser.h in Headers */ = {isa = PBXBuildFile; fileRef = 83288C532234740900C6DF73 /* GIDGoogleUser.h */; };
+		83288C5A2234740900C6DF73 /* GIDSignInButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 83288C542234740900C6DF73 /* GIDSignInButton.h */; };
+		83288C5B2234740900C6DF73 /* GIDSignIn.h in Headers */ = {isa = PBXBuildFile; fileRef = 83288C552234740900C6DF73 /* GIDSignIn.h */; };
+		83288C5D2234740900C6DF73 /* GIDAuthentication.h in Headers */ = {isa = PBXBuildFile; fileRef = 83288C572234740900C6DF73 /* GIDAuthentication.h */; };
+		83288C5E2234740900C6DF73 /* GIDProfileData.h in Headers */ = {isa = PBXBuildFile; fileRef = 83288C582234740900C6DF73 /* GIDProfileData.h */; };
+		83288C622234742200C6DF73 /* GoogleSignIn.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 83288C5F2234742200C6DF73 /* GoogleSignIn.bundle */; };
+		83288C662234759B00C6DF73 /* GoogleSignInAll.h in Headers */ = {isa = PBXBuildFile; fileRef = 83288C652234759A00C6DF73 /* GoogleSignInAll.h */; };
+		83288C6822347B2200C6DF73 /* GoogleSignIn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83288C612234742200C6DF73 /* GoogleSignIn.framework */; };
+		83288C6922347B2600C6DF73 /* GoogleSignInDependencies.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83288C602234742200C6DF73 /* GoogleSignInDependencies.framework */; };
+		83288C6B2234856000C6DF73 /* LocalAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83288C6A2234856000C6DF73 /* LocalAuthentication.framework */; };
 		8391B4DF20CD4BDD00B68FBF /* GoogleSignIn.h in Headers */ = {isa = PBXBuildFile; fileRef = 8391B4DD20CD4BDD00B68FBF /* GoogleSignIn.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8391B4E820CD4C7C00B68FBF /* GoogleSignIn.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8391B4E520CD4C7C00B68FBF /* GoogleSignIn.bundle */; };
-		8391B4E920CD4C7C00B68FBF /* GoogleSignInDependencies.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8391B4E620CD4C7C00B68FBF /* GoogleSignInDependencies.framework */; };
-		8391B4EA20CD4C7C00B68FBF /* GoogleSignIn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8391B4E720CD4C7C00B68FBF /* GoogleSignIn.framework */; };
-		8391B4EC20CD4CA500B68FBF /* GIDAuthentication.h in Headers */ = {isa = PBXBuildFile; fileRef = 8391B4EB20CD4CA500B68FBF /* GIDAuthentication.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8391B4EE20CD4D0500B68FBF /* GIDGoogleUser.h in Headers */ = {isa = PBXBuildFile; fileRef = 8391B4ED20CD4D0500B68FBF /* GIDGoogleUser.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8391B4F020CD4D0D00B68FBF /* GIDProfileData.h in Headers */ = {isa = PBXBuildFile; fileRef = 8391B4EF20CD4D0D00B68FBF /* GIDProfileData.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8391B4F220CD4D1400B68FBF /* GIDSignIn.h in Headers */ = {isa = PBXBuildFile; fileRef = 8391B4F120CD4D1400B68FBF /* GIDSignIn.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8391B4F420CD4D1900B68FBF /* GIDSignInButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 8391B4F320CD4D1900B68FBF /* GIDSignInButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8391B4F920CD4D4E00B68FBF /* SafariServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8391B4F820CD4D4E00B68FBF /* SafariServices.framework */; };
 		8391B4FB20CD4D5700B68FBF /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8391B4FA20CD4D5700B68FBF /* CoreText.framework */; };
 		8391B4FD20CD4D6000B68FBF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8391B4FC20CD4D6000B68FBF /* CoreGraphics.framework */; };
@@ -23,21 +25,22 @@
 		8391B50120CD4DAC00B68FBF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8391B50020CD4DAC00B68FBF /* UIKit.framework */; };
 		8391B50320CD4DB200B68FBF /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8391B50220CD4DB200B68FBF /* Security.framework */; };
 		8391B50520CD4DBA00B68FBF /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8391B50420CD4DBA00B68FBF /* SystemConfiguration.framework */; };
-		8391B50720CD521D00B68FBF /* GoogleSignInAll.h in Headers */ = {isa = PBXBuildFile; fileRef = 8391B50620CD521D00B68FBF /* GoogleSignInAll.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		83288C532234740900C6DF73 /* GIDGoogleUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GIDGoogleUser.h; path = google_signin_sdk/GoogleSignIn.framework/Headers/GIDGoogleUser.h; sourceTree = "<group>"; };
+		83288C542234740900C6DF73 /* GIDSignInButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GIDSignInButton.h; path = google_signin_sdk/GoogleSignIn.framework/Headers/GIDSignInButton.h; sourceTree = "<group>"; };
+		83288C552234740900C6DF73 /* GIDSignIn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GIDSignIn.h; path = google_signin_sdk/GoogleSignIn.framework/Headers/GIDSignIn.h; sourceTree = "<group>"; };
+		83288C572234740900C6DF73 /* GIDAuthentication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GIDAuthentication.h; path = google_signin_sdk/GoogleSignIn.framework/Headers/GIDAuthentication.h; sourceTree = "<group>"; };
+		83288C582234740900C6DF73 /* GIDProfileData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GIDProfileData.h; path = google_signin_sdk/GoogleSignIn.framework/Headers/GIDProfileData.h; sourceTree = "<group>"; };
+		83288C5F2234742200C6DF73 /* GoogleSignIn.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = GoogleSignIn.bundle; path = google_signin_sdk/GoogleSignIn.bundle; sourceTree = SOURCE_ROOT; };
+		83288C602234742200C6DF73 /* GoogleSignInDependencies.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleSignInDependencies.framework; path = google_signin_sdk/GoogleSignInDependencies.framework; sourceTree = SOURCE_ROOT; };
+		83288C612234742200C6DF73 /* GoogleSignIn.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleSignIn.framework; path = google_signin_sdk/GoogleSignIn.framework; sourceTree = SOURCE_ROOT; };
+		83288C652234759A00C6DF73 /* GoogleSignInAll.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GoogleSignInAll.h; path = google_signin_sdk/GoogleSignIn.framework/Headers/GoogleSignInAll.h; sourceTree = "<group>"; };
+		83288C6A2234856000C6DF73 /* LocalAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LocalAuthentication.framework; path = System/Library/Frameworks/LocalAuthentication.framework; sourceTree = SDKROOT; };
 		8391B4DA20CD4BDD00B68FBF /* GoogleSignIn.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GoogleSignIn.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8391B4DD20CD4BDD00B68FBF /* GoogleSignIn.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GoogleSignIn.h; sourceTree = "<group>"; };
 		8391B4DE20CD4BDD00B68FBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8391B4E520CD4C7C00B68FBF /* GoogleSignIn.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = GoogleSignIn.bundle; path = google_signin_sdk_4_1_2/GoogleSignIn.bundle; sourceTree = SOURCE_ROOT; };
-		8391B4E620CD4C7C00B68FBF /* GoogleSignInDependencies.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleSignInDependencies.framework; path = google_signin_sdk_4_1_2/GoogleSignInDependencies.framework; sourceTree = SOURCE_ROOT; };
-		8391B4E720CD4C7C00B68FBF /* GoogleSignIn.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleSignIn.framework; path = google_signin_sdk_4_1_2/GoogleSignIn.framework; sourceTree = SOURCE_ROOT; };
-		8391B4EB20CD4CA500B68FBF /* GIDAuthentication.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GIDAuthentication.h; path = google_signin_sdk_4_1_2/GoogleSignIn.framework/Headers/GIDAuthentication.h; sourceTree = "<group>"; };
-		8391B4ED20CD4D0500B68FBF /* GIDGoogleUser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GIDGoogleUser.h; path = google_signin_sdk_4_1_2/GoogleSignIn.framework/Headers/GIDGoogleUser.h; sourceTree = "<group>"; };
-		8391B4EF20CD4D0D00B68FBF /* GIDProfileData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GIDProfileData.h; path = google_signin_sdk_4_1_2/GoogleSignIn.framework/Headers/GIDProfileData.h; sourceTree = "<group>"; };
-		8391B4F120CD4D1400B68FBF /* GIDSignIn.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GIDSignIn.h; path = google_signin_sdk_4_1_2/GoogleSignIn.framework/Headers/GIDSignIn.h; sourceTree = "<group>"; };
-		8391B4F320CD4D1900B68FBF /* GIDSignInButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GIDSignInButton.h; path = google_signin_sdk_4_1_2/GoogleSignIn.framework/Headers/GIDSignInButton.h; sourceTree = "<group>"; };
 		8391B4F820CD4D4E00B68FBF /* SafariServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SafariServices.framework; path = System/Library/Frameworks/SafariServices.framework; sourceTree = SDKROOT; };
 		8391B4FA20CD4D5700B68FBF /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
 		8391B4FC20CD4D6000B68FBF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -45,7 +48,6 @@
 		8391B50020CD4DAC00B68FBF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		8391B50220CD4DB200B68FBF /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		8391B50420CD4DBA00B68FBF /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
-		8391B50620CD521D00B68FBF /* GoogleSignInAll.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GoogleSignInAll.h; path = google_signin_sdk_4_1_2/GoogleSignIn.framework/Headers/GoogleSignInAll.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,15 +55,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83288C6B2234856000C6DF73 /* LocalAuthentication.framework in Frameworks */,
 				8391B50520CD4DBA00B68FBF /* SystemConfiguration.framework in Frameworks */,
+				83288C6822347B2200C6DF73 /* GoogleSignIn.framework in Frameworks */,
+				83288C6922347B2600C6DF73 /* GoogleSignInDependencies.framework in Frameworks */,
 				8391B50320CD4DB200B68FBF /* Security.framework in Frameworks */,
 				8391B50120CD4DAC00B68FBF /* UIKit.framework in Frameworks */,
 				8391B4FF20CD4DA400B68FBF /* Foundation.framework in Frameworks */,
 				8391B4FD20CD4D6000B68FBF /* CoreGraphics.framework in Frameworks */,
 				8391B4FB20CD4D5700B68FBF /* CoreText.framework in Frameworks */,
 				8391B4F920CD4D4E00B68FBF /* SafariServices.framework in Frameworks */,
-				8391B4E920CD4C7C00B68FBF /* GoogleSignInDependencies.framework in Frameworks */,
-				8391B4EA20CD4C7C00B68FBF /* GoogleSignIn.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,12 +74,12 @@
 		8391B4D020CD4BDD00B68FBF = {
 			isa = PBXGroup;
 			children = (
-				8391B50620CD521D00B68FBF /* GoogleSignInAll.h */,
-				8391B4F320CD4D1900B68FBF /* GIDSignInButton.h */,
-				8391B4F120CD4D1400B68FBF /* GIDSignIn.h */,
-				8391B4EF20CD4D0D00B68FBF /* GIDProfileData.h */,
-				8391B4ED20CD4D0500B68FBF /* GIDGoogleUser.h */,
-				8391B4EB20CD4CA500B68FBF /* GIDAuthentication.h */,
+				83288C652234759A00C6DF73 /* GoogleSignInAll.h */,
+				83288C572234740900C6DF73 /* GIDAuthentication.h */,
+				83288C532234740900C6DF73 /* GIDGoogleUser.h */,
+				83288C582234740900C6DF73 /* GIDProfileData.h */,
+				83288C552234740900C6DF73 /* GIDSignIn.h */,
+				83288C542234740900C6DF73 /* GIDSignInButton.h */,
 				8391B4DC20CD4BDD00B68FBF /* GoogleSignIn */,
 				8391B4DB20CD4BDD00B68FBF /* Products */,
 				8391B4F720CD4D4E00B68FBF /* Frameworks */,
@@ -94,10 +97,10 @@
 		8391B4DC20CD4BDD00B68FBF /* GoogleSignIn */ = {
 			isa = PBXGroup;
 			children = (
+				83288C5F2234742200C6DF73 /* GoogleSignIn.bundle */,
+				83288C612234742200C6DF73 /* GoogleSignIn.framework */,
+				83288C602234742200C6DF73 /* GoogleSignInDependencies.framework */,
 				8391B4DD20CD4BDD00B68FBF /* GoogleSignIn.h */,
-				8391B4E520CD4C7C00B68FBF /* GoogleSignIn.bundle */,
-				8391B4E720CD4C7C00B68FBF /* GoogleSignIn.framework */,
-				8391B4E620CD4C7C00B68FBF /* GoogleSignInDependencies.framework */,
 				8391B4DE20CD4BDD00B68FBF /* Info.plist */,
 			);
 			path = GoogleSignIn;
@@ -106,6 +109,7 @@
 		8391B4F720CD4D4E00B68FBF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				83288C6A2234856000C6DF73 /* LocalAuthentication.framework */,
 				8391B50420CD4DBA00B68FBF /* SystemConfiguration.framework */,
 				8391B50220CD4DB200B68FBF /* Security.framework */,
 				8391B50020CD4DAC00B68FBF /* UIKit.framework */,
@@ -124,13 +128,13 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83288C5E2234740900C6DF73 /* GIDProfileData.h in Headers */,
 				8391B4DF20CD4BDD00B68FBF /* GoogleSignIn.h in Headers */,
-				8391B4EC20CD4CA500B68FBF /* GIDAuthentication.h in Headers */,
-				8391B4EE20CD4D0500B68FBF /* GIDGoogleUser.h in Headers */,
-				8391B4F020CD4D0D00B68FBF /* GIDProfileData.h in Headers */,
-				8391B4F220CD4D1400B68FBF /* GIDSignIn.h in Headers */,
-				8391B4F420CD4D1900B68FBF /* GIDSignInButton.h in Headers */,
-				8391B50720CD521D00B68FBF /* GoogleSignInAll.h in Headers */,
+				83288C5B2234740900C6DF73 /* GIDSignIn.h in Headers */,
+				83288C592234740900C6DF73 /* GIDGoogleUser.h in Headers */,
+				83288C5A2234740900C6DF73 /* GIDSignInButton.h in Headers */,
+				83288C662234759B00C6DF73 /* GoogleSignInAll.h in Headers */,
+				83288C5D2234740900C6DF73 /* GIDAuthentication.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -191,7 +195,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8391B4E820CD4C7C00B68FBF /* GoogleSignIn.bundle in Resources */,
+				83288C622234742200C6DF73 /* GoogleSignIn.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,7 +340,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/google_signin_sdk_4_1_2",
+					"$(PROJECT_DIR)/google_signin_sdk",
 				);
 				INFOPLIST_FILE = GoogleSignIn/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -346,10 +350,16 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/google_signin_sdk",
+				);
 				OTHER_CFLAGS = "-fembed-bitcode";
 				OTHER_LDFLAGS = (
 					"-fembed-bitcode",
 					"-all_load",
+					"-ObjC",
+					"$(inherited)",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = biz.SpasticMuffin.GoogleSignIn;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
@@ -370,7 +380,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/google_signin_sdk_4_1_2",
+					"$(PROJECT_DIR)/google_signin_sdk",
 				);
 				INFOPLIST_FILE = GoogleSignIn/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -380,10 +390,16 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/google_signin_sdk",
+				);
 				OTHER_CFLAGS = "-fembed-bitcode";
 				OTHER_LDFLAGS = (
 					"-fembed-bitcode",
 					"-all_load",
+					"-ObjC",
+					"$(inherited)",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = biz.SpasticMuffin.GoogleSignIn;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
