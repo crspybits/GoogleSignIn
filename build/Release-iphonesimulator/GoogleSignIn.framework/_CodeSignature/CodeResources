@@ -366,9 +366,33 @@
 			<key>optional</key>
 			<true/>
 		</dict>
+		<key>Headers/GIDAuthentication.h</key>
+		<data>
+		FzK6IwG0rTCDwT4rK1bT7B3NHGQ=
+		</data>
+		<key>Headers/GIDGoogleUser.h</key>
+		<data>
+		X0avxsVF1fcoXYSQIiD4+0f49E4=
+		</data>
+		<key>Headers/GIDProfileData.h</key>
+		<data>
+		ggv89d6DwaxI6ObXaT2MPVHk2VM=
+		</data>
+		<key>Headers/GIDSignIn.h</key>
+		<data>
+		6ojPqAz+gQfo2NSNuyFERR/gYWA=
+		</data>
+		<key>Headers/GIDSignInButton.h</key>
+		<data>
+		e3ikDMcw52uX9xkoaRnuZJENnM4=
+		</data>
 		<key>Headers/GoogleSignIn.h</key>
 		<data>
 		nkMm06Y4Ud/j4pA1rrpZdrPmZXE=
+		</data>
+		<key>Headers/GoogleSignInAll.h</key>
+		<data>
+		UrEgh/ZQcJ5hx1f6MYV00wCQuFc=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -930,6 +954,61 @@
 			<key>optional</key>
 			<true/>
 		</dict>
+		<key>Headers/GIDAuthentication.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			FzK6IwG0rTCDwT4rK1bT7B3NHGQ=
+			</data>
+			<key>hash2</key>
+			<data>
+			DxgBXHGdwzCikxCAOhajqOZ4UeNbCh8tHOVzm0REado=
+			</data>
+		</dict>
+		<key>Headers/GIDGoogleUser.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			X0avxsVF1fcoXYSQIiD4+0f49E4=
+			</data>
+			<key>hash2</key>
+			<data>
+			kIYAinNE6/OTgLkVq3bqTlA7yxbkzl8hHoA0Tr0obgI=
+			</data>
+		</dict>
+		<key>Headers/GIDProfileData.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			ggv89d6DwaxI6ObXaT2MPVHk2VM=
+			</data>
+			<key>hash2</key>
+			<data>
+			yBpwD2YQ9M29QrwBZ6QN8V7VocDgBqxYBP+djfEkIeM=
+			</data>
+		</dict>
+		<key>Headers/GIDSignIn.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			6ojPqAz+gQfo2NSNuyFERR/gYWA=
+			</data>
+			<key>hash2</key>
+			<data>
+			9Pya19i6KfYq8OmLi/ExQ1wBcLhmsG+g+9CAtuoSh0I=
+			</data>
+		</dict>
+		<key>Headers/GIDSignInButton.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			e3ikDMcw52uX9xkoaRnuZJENnM4=
+			</data>
+			<key>hash2</key>
+			<data>
+			+TtG1iJEuOqeNI+B/OBmV6ZC1a3UZMMvjbk9W+m1f40=
+			</data>
+		</dict>
 		<key>Headers/GoogleSignIn.h</key>
 		<dict>
 			<key>hash</key>
@@ -939,6 +1018,17 @@
 			<key>hash2</key>
 			<data>
 			VgPJLOgt7Zmcpa6xxuIIJinbaYTvmTWl/Vr52wkzK9Q=
+			</data>
+		</dict>
+		<key>Headers/GoogleSignInAll.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			UrEgh/ZQcJ5hx1f6MYV00wCQuFc=
+			</data>
+			<key>hash2</key>
+			<data>
+			MLoBigx8im3WxJoV+lASK5NcDQs3ae3sBCvyaF0BCPI=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

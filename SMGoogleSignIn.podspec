@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = 'SMGoogleSignIn'
-  s.version      = '1.0.0'
+  s.version      = '1.1.0'
   s.license      = { :type => 'Copyright', :text => 'Copyright 2018 Google'}
   s.homepage     = 'https://github.com/crspybits/SMGoogleSignIn'
   s.authors      = { 'Spastic Muffin, LLC' => 'chris@SpasticMuffin.biz' }

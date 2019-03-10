@@ -1,4 +1,7 @@
-GoogleSignIn
+SMGoogleSignIn
+
+Version 1.1.0 (3/9/19)
+	* The version 1.0.0 attempt didn't work. Google Sign In still looks like it's static. I've now updated to Google's version 4.4.0 framework.
 
 Version 1.0.0 (3/9/19)
 	* Changing name of pod to SMGoogleSignIn (from GoogleSignIn) to try the native (Google's) pod again to see it's still static.

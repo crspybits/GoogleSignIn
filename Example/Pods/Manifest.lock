@@ -1,5 +1,5 @@
 PODS:
-  - SMGoogleSignIn (1.0.0)
+  - SMGoogleSignIn (1.1.0)
 
 DEPENDENCIES:
   - SMGoogleSignIn (from `..`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: ".."
 
 SPEC CHECKSUMS:
-  SMGoogleSignIn: b84190c3837cd808193af191a745910903a83e2e
+  SMGoogleSignIn: de1b8302583b61df51b71b81e349cbe487cbbda3
 
 PODFILE CHECKSUM: bfbcbad8f54f37a529e5a8983569413f0d1bbca6
 

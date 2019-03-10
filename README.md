@@ -36,7 +36,9 @@ See https://stackoverflow.com/questions/5010062/xcodebuild-simulator-or-device a
 4) Replace that named folder in the repo with the new "google_signin_sdk".
 5) I had to rename the file within the GoogleSignIn.framework/Headers/GoogleSignIn.h  obtained from Google to GoogleSignIn.framework/Headers/GoogleSignInAll.h to work around a naming conflict.
 6) Note that the names of the header files in google_signin_sdk/GoogleSignIn.framework/Headers might have changed, and you might have to adjust these in GoogleSignIn.xcodeproj
-7) Read through the section `Link dependent frameworks to your Xcode project` in https://developers.google.com/identity/sign-in/ios/sdk/ to see if you need to add other (more) libraries. (I ran into some odd looking link issues when I didn't remember this).
+7) Make sure the headers for the library are all public:
+![Public Headers](./docs/publicHeaders.png)
+8) Read through the section `Link dependent frameworks to your Xcode project` in https://developers.google.com/identity/sign-in/ios/sdk/ to see if you need to add other (more) libraries. (I ran into some odd looking link issues when I didn't remember this).
 
 For some reason, the following does not generate a binary file output to run with the simulator. I'm having to dig into the DerivedData output of Xcode after building for an example simulator device to actually get the simulator-built framework.
 

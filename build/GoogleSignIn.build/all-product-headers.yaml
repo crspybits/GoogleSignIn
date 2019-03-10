@@ -8,6 +8,31 @@
       'contents': [
         {
           'type': 'file',
+          'name': "GIDAuthentication.h",
+          'external-contents': "/Users/chris/Desktop/Apps/repos/SMGoogleSignIn/google_signin_sdk/GoogleSignIn.framework/Headers/GIDAuthentication.h"
+        },
+        {
+          'type': 'file',
+          'name': "GIDGoogleUser.h",
+          'external-contents': "/Users/chris/Desktop/Apps/repos/SMGoogleSignIn/google_signin_sdk/GoogleSignIn.framework/Headers/GIDGoogleUser.h"
+        },
+        {
+          'type': 'file',
+          'name': "GIDProfileData.h",
+          'external-contents': "/Users/chris/Desktop/Apps/repos/SMGoogleSignIn/google_signin_sdk/GoogleSignIn.framework/Headers/GIDProfileData.h"
+        },
+        {
+          'type': 'file',
+          'name': "GIDSignIn.h",
+          'external-contents': "/Users/chris/Desktop/Apps/repos/SMGoogleSignIn/google_signin_sdk/GoogleSignIn.framework/Headers/GIDSignIn.h"
+        },
+        {
+          'type': 'file',
+          'name': "GIDSignInButton.h",
+          'external-contents': "/Users/chris/Desktop/Apps/repos/SMGoogleSignIn/google_signin_sdk/GoogleSignIn.framework/Headers/GIDSignInButton.h"
+        },
+        {
+          'type': 'file',
           'name': "GoogleSignIn-Swift.h",
           'external-contents': "/Users/chris/Desktop/Apps/repos/SMGoogleSignIn/build/Release-iphoneos/GoogleSignIn.framework/Headers/GoogleSignIn-Swift.h"
         },
@@ -15,6 +40,11 @@
           'type': 'file',
           'name': "GoogleSignIn.h",
           'external-contents': "/Users/chris/Desktop/Apps/repos/SMGoogleSignIn/GoogleSignIn/GoogleSignIn.h"
+        },
+        {
+          'type': 'file',
+          'name': "GoogleSignInAll.h",
+          'external-contents': "/Users/chris/Desktop/Apps/repos/SMGoogleSignIn/google_signin_sdk/GoogleSignIn.framework/Headers/GoogleSignInAll.h"
         }
       ]
     },

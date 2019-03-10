@@ -13,22 +13,23 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		024B4D251DE1AAA8F4052D40AA6FF5AA /* GoogleSignIn.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GoogleSignIn.bundle; path = Framework/GoogleSignIn.framework/GoogleSignIn.bundle; sourceTree = "<group>"; };
 		044AA3E23F71470C9B5F50D44720EA0D /* Pods-Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Example-resources.sh"; sourceTree = "<group>"; };
 		0751B3C0A5DEC132FE3FBD6BCD83D80B /* Pods_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Example.framework; path = "Pods-Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		099555DBD0C8A0A0E293559072425D18 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		11434BC759D12F57876FBB74A4775E74 /* Pods-Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		15D3FE98E9F2D34863BD3F3597A0485A /* Pods-Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Example-umbrella.h"; sourceTree = "<group>"; };
 		1AD65E35A3233FBE6F2EFDEB3D43D114 /* Pods-Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Example-dummy.m"; sourceTree = "<group>"; };
+		250190EB5FD39DDD3BE8E26EF70FC794 /* SMGoogleSignIn.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = SMGoogleSignIn.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		25A37D4D536CC5988A439441117C41F4 /* Pods-Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Example.modulemap"; sourceTree = "<group>"; };
+		2745DCEE32DA99B34B611D06FF61D538 /* GoogleSignIn.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleSignIn.framework; path = Framework/GoogleSignIn.framework; sourceTree = "<group>"; };
 		3ADE9E5655579DB0F79DC9C80758673C /* Pods-Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		3F3EFEBDE6702DEFDFFF9D5C6DBC3773 /* Pods-Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Example-frameworks.sh"; sourceTree = "<group>"; };
-		4BE5B23E8AA515E3FFA45C9F2383CBBB /* GoogleSignIn.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleSignIn.framework; path = Framework/GoogleSignIn.framework; sourceTree = "<group>"; };
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		5B81C04F8E84EAE60AE15C8695031A5F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E9D4D15DC14DFCB46C01F978C464C67 /* GoogleSignIn.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GoogleSignIn.bundle; path = Framework/GoogleSignIn.framework/GoogleSignIn.bundle; sourceTree = "<group>"; };
+		6EFBC9E1289424C4F415B95DE147D8A0 /* publicHeaders.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = publicHeaders.png; path = docs/publicHeaders.png; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A79AC23D5A157FED70D9C53D844B2319 /* Pods-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example.release.xcconfig"; sourceTree = "<group>"; };
-		C209525B444FB22FFFBE8C05A7CE964C /* SMGoogleSignIn.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = SMGoogleSignIn.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E259058839D10135E8501BDAA3EEE51C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		EFC5B2E05B58CD826FD55659BF1D7E39 /* Pods-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -62,29 +63,12 @@
 			path = "Target Support Files/Pods-Example";
 			sourceTree = "<group>";
 		};
-		21DA65080FF90550496801CABA716641 /* Pod */ = {
+		33337CE4CE2FC17E29E79B93D2918C92 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				099555DBD0C8A0A0E293559072425D18 /* README.md */,
-				C209525B444FB22FFFBE8C05A7CE964C /* SMGoogleSignIn.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		290F054A4BD96D751C85441E58E85FC2 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				4BE5B23E8AA515E3FFA45C9F2383CBBB /* GoogleSignIn.framework */,
+				2745DCEE32DA99B34B611D06FF61D538 /* GoogleSignIn.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		35C435043F0D6DF8FEABCFEC2FF76765 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				024B4D251DE1AAA8F4052D40AA6FF5AA /* GoogleSignIn.bundle */,
-			);
-			name = Resources;
 			sourceTree = "<group>";
 		};
 		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
@@ -93,17 +77,6 @@
 				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
 			);
 			name = iOS;
-			sourceTree = "<group>";
-		};
-		67C7024B3261D817D03368D9A6ED0AE7 /* SMGoogleSignIn */ = {
-			isa = PBXGroup;
-			children = (
-				290F054A4BD96D751C85441E58E85FC2 /* Frameworks */,
-				21DA65080FF90550496801CABA716641 /* Pod */,
-				35C435043F0D6DF8FEABCFEC2FF76765 /* Resources */,
-			);
-			name = SMGoogleSignIn;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 		6A4F6A14E3FB951290E4531728B7A461 /* Targets Support Files */ = {
@@ -133,10 +106,20 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		84F00EED4C7497AC86BB711B2BE0AC89 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				6EFBC9E1289424C4F415B95DE147D8A0 /* publicHeaders.png */,
+				E259058839D10135E8501BDAA3EEE51C /* README.md */,
+				250190EB5FD39DDD3BE8E26EF70FC794 /* SMGoogleSignIn.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 		A37C2650C4B9E51A725140657AE9B279 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				67C7024B3261D817D03368D9A6ED0AE7 /* SMGoogleSignIn */,
+				EEF08A97F377CAAD0869CCC3CD40393B /* SMGoogleSignIn */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -147,6 +130,25 @@
 				5E0D919E635D23B70123790B8308F8EF /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E1D5D282FCF44DA712929AB26F563B31 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6E9D4D15DC14DFCB46C01F978C464C67 /* GoogleSignIn.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		EEF08A97F377CAAD0869CCC3CD40393B /* SMGoogleSignIn */ = {
+			isa = PBXGroup;
+			children = (
+				33337CE4CE2FC17E29E79B93D2918C92 /* Frameworks */,
+				84F00EED4C7497AC86BB711B2BE0AC89 /* Pod */,
+				E1D5D282FCF44DA712929AB26F563B31 /* Resources */,
+			);
+			name = SMGoogleSignIn;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

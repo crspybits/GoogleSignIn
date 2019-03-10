@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		83288C592234740900C6DF73 /* GIDGoogleUser.h in Headers */ = {isa = PBXBuildFile; fileRef = 83288C532234740900C6DF73 /* GIDGoogleUser.h */; };
-		83288C5A2234740900C6DF73 /* GIDSignInButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 83288C542234740900C6DF73 /* GIDSignInButton.h */; };
-		83288C5B2234740900C6DF73 /* GIDSignIn.h in Headers */ = {isa = PBXBuildFile; fileRef = 83288C552234740900C6DF73 /* GIDSignIn.h */; };
-		83288C5D2234740900C6DF73 /* GIDAuthentication.h in Headers */ = {isa = PBXBuildFile; fileRef = 83288C572234740900C6DF73 /* GIDAuthentication.h */; };
-		83288C5E2234740900C6DF73 /* GIDProfileData.h in Headers */ = {isa = PBXBuildFile; fileRef = 83288C582234740900C6DF73 /* GIDProfileData.h */; };
+		83288C592234740900C6DF73 /* GIDGoogleUser.h in Headers */ = {isa = PBXBuildFile; fileRef = 83288C532234740900C6DF73 /* GIDGoogleUser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		83288C5A2234740900C6DF73 /* GIDSignInButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 83288C542234740900C6DF73 /* GIDSignInButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		83288C5B2234740900C6DF73 /* GIDSignIn.h in Headers */ = {isa = PBXBuildFile; fileRef = 83288C552234740900C6DF73 /* GIDSignIn.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		83288C5D2234740900C6DF73 /* GIDAuthentication.h in Headers */ = {isa = PBXBuildFile; fileRef = 83288C572234740900C6DF73 /* GIDAuthentication.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		83288C5E2234740900C6DF73 /* GIDProfileData.h in Headers */ = {isa = PBXBuildFile; fileRef = 83288C582234740900C6DF73 /* GIDProfileData.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		83288C622234742200C6DF73 /* GoogleSignIn.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 83288C5F2234742200C6DF73 /* GoogleSignIn.bundle */; };
-		83288C662234759B00C6DF73 /* GoogleSignInAll.h in Headers */ = {isa = PBXBuildFile; fileRef = 83288C652234759A00C6DF73 /* GoogleSignInAll.h */; };
+		83288C662234759B00C6DF73 /* GoogleSignInAll.h in Headers */ = {isa = PBXBuildFile; fileRef = 83288C652234759A00C6DF73 /* GoogleSignInAll.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		83288C6822347B2200C6DF73 /* GoogleSignIn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83288C612234742200C6DF73 /* GoogleSignIn.framework */; };
 		83288C6922347B2600C6DF73 /* GoogleSignInDependencies.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83288C602234742200C6DF73 /* GoogleSignInDependencies.framework */; };
 		83288C6B2234856000C6DF73 /* LocalAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83288C6A2234856000C6DF73 /* LocalAuthentication.framework */; };
