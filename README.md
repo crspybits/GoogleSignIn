@@ -40,7 +40,7 @@ See https://stackoverflow.com/questions/5010062/xcodebuild-simulator-or-device a
 ![Public Headers](./docs/publicHeaders.png)
 8) Read through the section `Link dependent frameworks to your Xcode project` in https://developers.google.com/identity/sign-in/ios/sdk/ to see if you need to add other (more) libraries. (I ran into some odd looking link issues when I didn't remember this).
 
-For some reason, the following does not generate a binary file output to run with the simulator. I'm having to dig into the DerivedData output of Xcode after building for an example simulator device to actually get the simulator-built framework.
+Prior to 3/9/19, I had been having problems with following to generate a binary file output to run with the simulator. Previously, I'd been having to dig into the DerivedData output of Xcode after building for an example simulator device to actually get the simulator-built framework. HOWEVER, now this does seem to do the trick.
 
 ```
 xcodebuild -target GoogleSignIn -configuration Release -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO BUILD_DIR="build" BUILD_ROOT="build" clean build
