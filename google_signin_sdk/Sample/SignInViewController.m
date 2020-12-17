@@ -26,7 +26,7 @@
 
 typedef void(^AlertViewActionBlock)(void);
 
-@interface SignInViewController () <GIDSignInDelegate, GIDSignInUIDelegate>
+@interface SignInViewController () <GIDSignInDelegate>
 
 @property (nonatomic, copy) void (^confirmActionBlock)(void);
 @property (nonatomic, copy) void (^cancelActionBlock)(void);
@@ -116,7 +116,8 @@ static NSString *const kCredentialsButtonAccessibilityIdentifier = @"Credentials
   GIDSignIn *signIn = [GIDSignIn sharedInstance];
   signIn.shouldFetchBasicProfile = YES;
   signIn.delegate = self;
-  signIn.uiDelegate = self;
+  signIn.presentingViewController = self;
+  [GIDSignIn sharedInstance].scopes = @[ @"email" ];
 }
 
 - (id)initWithNibName:(NSString *)nibNameOrNil

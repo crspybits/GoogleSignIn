@@ -42,7 +42,7 @@ static CGFloat const kTableViewCellPadding = 22.f;
       @"authentication.accessTokenExpirationDate",
       @"authentication.refreshToken",
       @"authentication.idToken",
-      @"accessibleScopes",
+      @"grantedScopes",
       @"userID",
       @"serverAuthCode",
       @"profile.email",

@@ -17,6 +17,7 @@
 		83288C6822347B2200C6DF73 /* GoogleSignIn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83288C612234742200C6DF73 /* GoogleSignIn.framework */; };
 		83288C6922347B2600C6DF73 /* GoogleSignInDependencies.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83288C602234742200C6DF73 /* GoogleSignInDependencies.framework */; };
 		83288C6B2234856000C6DF73 /* LocalAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83288C6A2234856000C6DF73 /* LocalAuthentication.framework */; };
+		832D34E42589B64F00FEF094 /* AuthenticationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 832D34E32589B64F00FEF094 /* AuthenticationServices.framework */; };
 		8391B4DF20CD4BDD00B68FBF /* GoogleSignIn.h in Headers */ = {isa = PBXBuildFile; fileRef = 8391B4DD20CD4BDD00B68FBF /* GoogleSignIn.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8391B4F920CD4D4E00B68FBF /* SafariServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8391B4F820CD4D4E00B68FBF /* SafariServices.framework */; };
 		8391B4FB20CD4D5700B68FBF /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8391B4FA20CD4D5700B68FBF /* CoreText.framework */; };
@@ -38,6 +39,7 @@
 		83288C612234742200C6DF73 /* GoogleSignIn.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleSignIn.framework; path = google_signin_sdk/GoogleSignIn.framework; sourceTree = SOURCE_ROOT; };
 		83288C652234759A00C6DF73 /* GoogleSignInAll.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GoogleSignInAll.h; path = google_signin_sdk/GoogleSignIn.framework/Headers/GoogleSignInAll.h; sourceTree = "<group>"; };
 		83288C6A2234856000C6DF73 /* LocalAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LocalAuthentication.framework; path = System/Library/Frameworks/LocalAuthentication.framework; sourceTree = SDKROOT; };
+		832D34E32589B64F00FEF094 /* AuthenticationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AuthenticationServices.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.0.sdk/System/iOSSupport/System/Library/Frameworks/AuthenticationServices.framework; sourceTree = DEVELOPER_DIR; };
 		8391B4DA20CD4BDD00B68FBF /* GoogleSignIn.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GoogleSignIn.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8391B4DD20CD4BDD00B68FBF /* GoogleSignIn.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GoogleSignIn.h; sourceTree = "<group>"; };
 		8391B4DE20CD4BDD00B68FBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 				8391B50520CD4DBA00B68FBF /* SystemConfiguration.framework in Frameworks */,
 				83288C6822347B2200C6DF73 /* GoogleSignIn.framework in Frameworks */,
 				83288C6922347B2600C6DF73 /* GoogleSignInDependencies.framework in Frameworks */,
+				832D34E42589B64F00FEF094 /* AuthenticationServices.framework in Frameworks */,
 				8391B50320CD4DB200B68FBF /* Security.framework in Frameworks */,
 				8391B50120CD4DAC00B68FBF /* UIKit.framework in Frameworks */,
 				8391B4FF20CD4DA400B68FBF /* Foundation.framework in Frameworks */,
@@ -109,6 +112,7 @@
 		8391B4F720CD4D4E00B68FBF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				832D34E32589B64F00FEF094 /* AuthenticationServices.framework */,
 				83288C6A2234856000C6DF73 /* LocalAuthentication.framework */,
 				8391B50420CD4DBA00B68FBF /* SystemConfiguration.framework */,
 				8391B50220CD4DB200B68FBF /* Security.framework */,
